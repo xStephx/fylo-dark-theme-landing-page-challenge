@@ -13,9 +13,12 @@ tailwind.config = {
             },
         },
         fontFamily: {
-            Raleway: ['Raleway', 'sans-serif'],
-            OpenSans: ['Open Sans', 'sans-serif'],
-        }
+            Raleway: ['Raleway', 'sans-serif'], // Headings, Call-to-actions, Header Navigation
+            OpenSans: ['Open Sans', 'sans-serif'], // Body
+        },
+        backgroundImage: {
+            'gradient': 'linear-gradient(to right, hsl(176, 68%, 64%), hsl(198, 60%, 50%))',
+          },
     },
     plugins: [],
 }

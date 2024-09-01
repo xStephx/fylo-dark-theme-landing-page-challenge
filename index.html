@@ -20,33 +20,48 @@
   <title>Frontend Mentor | Fylo landing page with dark theme and features grid</title>
 </head>
 
-<body class="bg-DarkBlue2">
-  <nav class="container mx-auto flex items-center justify-between my-16 px-4">
-    <div>
-      <a href="#">
-        <img src="assets/images/logo.svg" alt="Logo" class="md:w-full w-28">
-      </a>
-    </div>
-    <ul class="flex text-slate-300">
-      <li class="text-base md:m-2 m-1 transition-all duration-300 hover:text-White hover:underline hover:decoration-1">
-        <a href="#">Features</a>
-      </li>
-      <li class="text-base md:m-2 m-1 transition-all duration-300 hover:text-White hover:underline hover:decoration-1">
-        <a href="#">Team</a>
-      </li>
-      <li class="text-base md:m-2 m-1 transition-all duration-300 hover:text-White hover:underline hover:decoration-1">
-        <a href="#">Sign In</a>
-      </li>
-    </ul>
-  </nav>
+<body class="bg-DarkBlue1 font-OpenSans">
+  <!-- Header -->
+  <header class="container mx-auto px-4">
+    <!-- Navbar -->
+    <nav class="flex items-center justify-between md:my-16 my-12">
+      <div>
+        <a href="#">
+          <img src="assets/images/logo.svg" alt="Logo" class="md:w-full w-28">
+        </a>
+      </div>
+      <ul class="flex text-slate-300">
+        <li class="text-base md:m-2 m-1 transition-all duration-300 hover:text-White hover:underline hover:decoration-1">
+          <a href="#">Features</a>
+        </li>
+        <li class="text-base md:m-2 m-1 transition-all duration-300 hover:text-White hover:underline hover:decoration-1">
+          <a href="#">Team</a>
+        </li>
+        <li class="text-base md:m-2 m-1 transition-all duration-300 hover:text-White hover:underline hover:decoration-1">
+          <a href="#">Sign In</a>
+        </li>
+      </ul>
+    </nav>
+    <!-- Intro -->
+    <section class="flex flex-col items-center justify-center my-5">
+      <div>
+        <img src="assets/images/illustration-intro.png" alt="Intro Illustration" class="w-full h-auto">
+      </div>
+      <div class="text-center lg:px-32 px-4 flex flex-col items-center justify-center">
+        <h1 class="font-Raleway text-White md:text-5xl text-2xl font-bold md:my-6 my-3">
+          All your files in one secure location, accessible anywhere.
+        </h1>
+        <p class="text-White md:text-2xl text-sm font-normal md:my-6 my-3 lg:px-32 px-2">
+          Fylo stores all your most important files in one secure location. Access them wherever
+          you need, share and collaborate with friends family, and co-workers.
+        </p>
+      </div>
+      <button class="text-White text-medium font-bold transition-all duration-300 bg-Blue hover:bg-Cyan rounded-full my-4 py-4 px-20">
+        Get Started
+      </button>
+    </section>
+  </header>
 
-
-  All your files in one secure location, accessible anywhere.
-
-  Fylo stores all your most important files in one secure location. Access them wherever
-  you need, share and collaborate with friends family, and co-workers.
-
-  Get Started
 
   Access your files, anywhere
 
