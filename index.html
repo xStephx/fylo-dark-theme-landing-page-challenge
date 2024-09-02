@@ -21,29 +21,30 @@
 </head>
 
 <body class="bg-DarkBlue1 font-OpenSans">
-  <!-- Header -->
-  <header class="container mx-auto px-4">
-    <!-- Navbar -->
-    <nav class="flex items-center justify-between md:my-16 my-12">
-      <div>
-        <a href="#">
-          <img src="assets/images/logo.svg" alt="Logo" class="md:w-full w-28">
-        </a>
-      </div>
-      <ul class="flex text-slate-300">
-        <li class="text-base md:m-2 m-1 transition-all duration-300 hover:text-White hover:underline hover:decoration-1">
-          <a href="#">Features</a>
-        </li>
-        <li class="text-base md:m-2 m-1 transition-all duration-300 hover:text-White hover:underline hover:decoration-1">
-          <a href="#">Team</a>
-        </li>
-        <li class="text-base md:m-2 m-1 transition-all duration-300 hover:text-White hover:underline hover:decoration-1">
-          <a href="#">Sign In</a>
-        </li>
-      </ul>
-    </nav>
-    <!-- Intro -->
-    <section class="flex flex-col items-center justify-center my-5">
+<!-- Header -->
+<header>
+  <!-- Navbar -->
+  <nav class="container mx-auto px-4 flex items-center justify-between md:my-16 my-12">
+    <div>
+      <a href="#">
+        <img src="assets/images/logo.svg" alt="Logo" class="md:w-full w-28">
+      </a>
+    </div>
+    <ul class="flex text-slate-300">
+      <li class="text-base md:m-2 m-1 transition-all duration-300 hover:text-White hover:underline hover:decoration-1">
+        <a href="#">Features</a>
+      </li>
+      <li class="text-base md:m-2 m-1 transition-all duration-300 hover:text-White hover:underline hover:decoration-1">
+        <a href="#">Team</a>
+      </li>
+      <li class="text-base md:m-2 m-1 transition-all duration-300 hover:text-White hover:underline hover:decoration-1">
+        <a href="#">Sign In</a>
+      </li>
+    </ul>
+  </nav>
+  <div class="relative">
+    <!-- Intro Section -->
+    <section class="container mx-auto px-4 flex flex-col items-center justify-center max-w-7xl my-5 relative z-10">
       <div>
         <img src="assets/images/illustration-intro.png" alt="Intro Illustration" class="w-full h-auto">
       </div>
@@ -60,28 +61,86 @@
         Get Started
       </button>
     </section>
-  </header>
+  </div>
+</header>
+<div class="relative">
+  <div class="absolute inset-x-0 bottom-[-150px] hidden md:block z-0">
+    <img src="assets/images/bg-curvy-desktop.svg" alt="Curvy Desktop" class="w-full">
+  </div>
+  <div class="absolute inset-x-0 bottom-[-150px] block md:hidden z-0">
+    <img src="assets/images/bg-curvy-mobile.svg" alt="Curvy Mobile" class="w-full">
+  </div>
+</div>
+<main class="bg-DarkBlue2 mt-[170px]">
+  <!-- About Section -->
+  <section class="container mx-auto mt-[20px] py-[50px] px-4 flex justify-center items-center">
+    <div class="grid md:grid-cols-2 grid-cols-1 gap-4 max-w-5xl">
+      <div class="text-center text-White p-8">
+        <img src="assets/images/icon-access-anywhere.svg" alt="Access Anywhere Icon" class="mx-auto mb-4">
+        <h3 class="font-Raleway text-xl font-bold mb-2">
+          Access your files, anywhere
+        </h3>
+        <p class="text-sm font-normal">
+          The ability to use a smartphone, tablet, or computer to access your 
+          account means your files follow you everywhere.
+        </p>
+      </div>
+      <div class="text-center text-White p-8">
+        <img src="assets/images/icon-security.svg" alt="Security Icon" class="mx-auto mb-4">
+        <h3 class="font-Raleway text-xl font-bold mb-2">
+          Security you can trust
+        </h3>
+        <p class="text-sm font-normal">
+          2-factor authentication and user-controlled encryption are just a couple
+          of the security features we allow to help secure your files.
+        </p>
+      </div>
+      <div class="text-center text-White p-8">
+        <img src="assets/images/icon-collaboration.svg" alt="Collaboration Icon" class="mx-auto mb-4">
+        <h3 class="font-Raleway text-xl font-bold mb-2">
+          Real-time collaboration
+        </h3>
+        <p class="text-sm font-normal">
+          Securely share files and folders with friends, family and 
+          colleagues for live collaboration. No email attachments required.
+        </p>
+      </div>
+      <div class="text-center text-White p-8">
+        <img src="assets/images/icon-any-file.svg" alt="Any File Icon" class="mx-auto mb-4">
+        <h3 class="font-Raleway text-xl font-bold mb-2">
+          Store any type of file
+        </h3>
+        <p class="text-sm font-normal">
+          Whether you're sharing holidays photos or work documents, 
+          Fylo has you covered allowing for all file types to be securely stored and shared.
+        </p>
+      </div>
+    </div>
+  </section>
+</main>
+
+  
 
 
-  Access your files, anywhere
+  
 
-  The ability to use a smartphone, tablet, or computer to access your account means your
-  files follow you everywhere.
 
-  Security you can trust
 
-  2-factor authentication and user-controlled encryption are just a couple of the security
-  features we allow to help secure your files.
+  
 
-  Real-time collaboration
 
-  Securely share files and folders with friends, family and colleagues for live collaboration.
-  No email attachments required.
 
-  Store any type of file
 
-  Whether you're sharing holidays photos or work documents, Fylo has you covered allowing for all
-  file types to be securely stored and shared.
+
+
+
+
+
+
+
+ 
+
+
 
   Stay productive, wherever you are
 

@@ -18,7 +18,7 @@ tailwind.config = {
         },
         backgroundImage: {
             'gradient': 'linear-gradient(to right, hsl(176, 68%, 64%), hsl(198, 60%, 50%))',
-          },
+        },
     },
     plugins: [],
 }
