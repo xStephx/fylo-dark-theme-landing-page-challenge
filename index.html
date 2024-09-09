@@ -212,11 +212,11 @@
     </p>
     <form class="grid grid-cols-1 md:grid-cols-10 md:gap-5 gap-5 justify-center md:items-start items-center">
       <div class="md:col-span-7 w-full">
-        <input type="text" class="rounded-full text-black md:text-base text-sm pl-4 pr-4 h-[45px] w-full" placeholder="email@example.com">
-        <p class="hidden text-xs text-LightRed my-2 mx-4">Please enter a valid email address</p>
+        <input id="email-input" type="text" class="rounded-full text-black md:text-base text-sm pl-4 pr-4 h-[45px] w-full" placeholder="email@example.com">
+        <p id="email-error-message" class="hidden text-xs text-LightRed my-2 mx-4">Please enter a valid email address</p>
       </div>
       <div class="md:col-span-3 w-full">
-        <button type="submit" class="rounded-full text-white text-sm font-bold transition-all duration-300 bg-blue-500 hover:bg-cyan-500 h-[45px] w-full">
+        <button id="submit-btn" type="submit" class="rounded-full text-white text-sm font-bold transition-all duration-300 bg-blue-500 hover:bg-cyan-500 h-[45px] w-full">
           Get Started For Free
         </button>
       </div>
